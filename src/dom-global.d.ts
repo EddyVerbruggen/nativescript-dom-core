@@ -1,6 +1,6 @@
 declare module 'nativescript-dom-global' {
 
-    import * as TNSDom from 'nativescript-dom';
+    import * as TNSDom from 'nativescript-dom-core';
 
     global {
         var getElementById: typeof TNSDom.getElementById;

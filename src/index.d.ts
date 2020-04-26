@@ -1,4 +1,4 @@
-import { ViewBase } from "ui/core/view-base";
+import { ViewBase } from "@nativescript/core/ui/core/view-base";
 
 
 /**
@@ -49,7 +49,7 @@ export function runAgainstClasses(className: string, callback: (element: ViewBas
 export function runAgainstTagNames(tagName: string, callback: (element: ViewBase) => void);
 
 
-declare module "ui/core/view-base" {
+declare module "@nativescript/core/ui/core/view-base" {
     interface ViewBase {
 
         /**

@@ -1,4 +1,4 @@
-# NativeScript-Dom
+# nativescript-dom-core
 
 ## ProPlugins
 We have an awesome, new service in town!   This service provides tested new and upgraded plugins.  All ProPlugins are already known to work with NativeScript 6.x.
@@ -17,20 +17,20 @@ Please feel free to fork this repo and update the functions or add additional DO
 For NativeScript 3.0 and later type
 
 ```bash
-tns plugin add nativescript-dom  
+tns plugin add nativescript-dom-core  
 ```
 
 To use in Nativescript 2.5 or earlier type:
 
 ```bash
-tns plugin add nativescript-dom@1.1.0
+tns plugin add nativescript-dom-core@1.1.0
 ```
 
 ## Usage
 To use the  module you just `require()` it:
 
 ```js
-require("nativescript-dom");
+require("nativescript-dom-core");
 ```
 
 **Note:** You do NOT need to keep a reference to it; and you only need to load it once.
@@ -120,7 +120,7 @@ add a reference in your `references.d.ts` file. Below is the snippet you can pas
 
 
 ```xml
-/// <reference path="./node_modules/nativescript-dom/dom-global.d.ts" />
+/// <reference path="./node_modules/nativescript-dom-core/dom-global.d.ts" />
 ```
 
 ## Thanks & Contributors
